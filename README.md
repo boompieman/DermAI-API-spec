@@ -53,7 +53,7 @@ or
 | CheckImageHaveSkinScore | Double | The confidential score to detact if there is a mole in picture |
 | ImageSizeScore | Double | The confidential score to check if image size is enough to detact a mole, more than 1 means it's enough |
 | Message | String | |
-| Reject | Bool | return `true` or `false`, if true, then tell user to take/upload another picture  |
+| Reject | Bool | return `true` or `false`, if true, then suggest user to take/upload another picture  |
 | X | Int | x-axis of the mole |
 | Y | Int | y-axis of the mole |
 
@@ -134,8 +134,8 @@ or
 | CheckBlurScore | Double | The confidential score for dpi if it can be used |
 | CheckImageHaveMoleScore | Double | The confidential score to detact if there is a mole in picture |
 | Message | String | |
-| Reject | Bool | only return `true` or `false`, if true, then tell user to take/upload another picture  |
-| RiskLevel | String | only return `Higher` or `lower` to tell user the mole is in hight risk or not |
+| Reject | Bool | only return `true` or `false`, if true, then suggest user to take/upload another picture  |
+| RiskLevel | String | only return `Higher` or `lower` to suggest user the mole is in hight risk or not |
 | RiskScore | Double | The risk score of the mole  |
 
 ```
