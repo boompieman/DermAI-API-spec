@@ -23,6 +23,7 @@ purpose for detacting if a mole in a picture
 | Field | Type | Description |
 | :---: | :---: | :---: |
 | Content-Type | String | Only accept `application/json`. |
+| x-access-token | String | Provided by `DermAI`, please ask. |
 
 * **Request Body**
 
@@ -83,6 +84,7 @@ purpose for getting result of a mole risk
 | Field | Type | Description |
 | :---: | :---: | :---: |
 | Content-Type | String | Only accept `application/json`. |
+| x-access-token | String | Provided by `DermAI`, please ask. |
 
 * **Request Body**
 
