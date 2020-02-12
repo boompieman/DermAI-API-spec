@@ -2,11 +2,15 @@
 
 ### Host Name
 
-https://moleapi.dermai.com.tw
+https://moleapi.dermai.com.tw/api/{version}
 
 ### API Version
 
-0.1
+v1
+
+### example
+
+https://moleapi.dermai.com.tw/api/v1
 
 ----
 
